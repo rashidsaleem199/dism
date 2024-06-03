@@ -1,3 +1,4 @@
+
 <!doctype html>
 <html lang="en">
     <head>
@@ -19,11 +20,79 @@
     </head>
 
     <body>
-        <h1>Work</h1>
-        <h1>helpers</h1>
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam, exercitationem consequatur dignissimos optio enim modi eius molestias error a necessitatibus quia, illum quibusdam laudantium placeat esse quaerat, dolorum est eum.
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur, enim!</p>
-
-  
+       <h1 class="text-center text-info">calculator</h1>
+       <div class="container">
+        <div class="row justify-content-center mt-3" >
+            <div class="col-lg-6">
+<div
+    class="table-responsive"
+>
+    <table
+        class="table table-primary"
+    >
+        <thead>
+            
+            
+        </thead>
+        <tbody>
+            <tr class="">
+                <td scope="row" colspan="4">
+               <input type="text" class="form-control" name="" id="inp">
+            </td>
+            </tr>
+            <tr class="">
+                <td scope="row">
+                    <button class="btn btn-outline-secondary" onclick="oprands(1)">1</button>
+                </td>
+                <td><button class="btn btn-outline-secondary"  onclick="oprands(2)">2</button></td>
+                <td><button class="btn btn-outline-secondary"  onclick="oprands(3)">3</button></td>
+                <td><button class="btn btn-outline-secondary"  onclick="oprands(4)">4</button></td>
+               
+            </tr>
+            <tr class="">
+                <td scope="row">
+                    <button class="btn btn-outline-secondary"  onclick="oprands(5)">5</button>
+                </td>
+                <td><button class="btn btn-outline-secondary"  onclick="oprands(6)">6</button></td>
+                <td><button class="btn btn-outline-secondary"  onclick="oprands(7)">7</button></td>
+                <td><button class="btn btn-outline-secondary"  onclick="oprands(8)">8</button></td>
+               
+            </tr>
+           
+            <tr class="">
+                <td scope="row">
+                    <button class="btn btn-outline-secondary"  onclick="oprands(9)">9</button>
+                </td>
+                <td><button class="btn btn-outline-secondary"  onclick="oprands(0)">0</button></td>
+                <td><button class="btn btn-outline-secondary" onclick="operator('+')">+</button></td>
+                <td><button class="btn btn-outline-secondary" onclick="operator('-')">-</button></td>
+               
+            </tr>
+            <tr class="">
+                <td scope="row">
+                    <button class="btn btn-outline-secondary" onclick="operator('*')">*</button>
+                </td>
+                <td><button class="btn btn-outline-secondary" onclick="operator('/')">/</button></td>
+                <td><button class="btn btn-outline-secondary" onclick="calculator('=')">=</button></td>
+                <td><button class="btn btn-outline-secondary" onclick="clearall('cc')">cc</button></td>
+               
+            </tr>
+            <tr class="">
+                <td scope="row">
+                    <button class="btn btn-outline-secondary" onclick="operator('del')">del</button>
+                </td>
+                <td></td>
+                <td></td>
+                <td></td>
+               
+            </tr>
+        </tbody>
+    </table>
+</div>
+</div>
+            </div>
+        </div>
+       </div>
+       <script src="assets/index.js"></script>
     </body>
 </html>
