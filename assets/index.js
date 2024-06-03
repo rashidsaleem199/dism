@@ -13,5 +13,5 @@ let clearall=()=>{
     document.querySelector("#inp").value ="";
 }
 let deleted =()=>{
-
+    document.querySelector("#inp").value ="";
 }
