@@ -12,3 +12,6 @@ document.querySelector("#inp").value = result;
 let clearall=()=>{
     document.querySelector("#inp").value ="";
 }
+let deleted =()=>{
+
+}
